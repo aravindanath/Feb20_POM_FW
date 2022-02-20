@@ -86,7 +86,9 @@ public class RegisterAccountPage extends BasePage{
         firstNameTextField.sendKeys(BasePage.lastName());
     }
 
-
+        public void verifyElements(){
+        System.out.println("Verify elements");
+        }
 
 
 }
